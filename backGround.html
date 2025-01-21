@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 400px;
+            height: 300px;
+            border: 1px solid;
+            margin: auto;
+            background-image: url('./images/61SRnA9uI-L._SX569_.jpg');
+            background-repeat: no-repeat; /* repeat-y | repeat-x */
+            background-size: cover; /*contain | cover | 100% 50% */
+            background-position: 10% 10%;
+            background-attachment: fixed;
+        }
+
+        .box{
+            width: 400px;
+            height: 300px;
+            border: 1px solid;
+            margin: auto;
+        }
+        
+        .first-box{
+            background-image: url('./images/61SRnA9uI-L._SX569_.jpg'), url('./images/915HgWAhLaL._SX569_.jpg');
+            background-repeat: no-repeat no-repeat;
+            background-size: 30% 30%, 30% 30%;
+            background-position: top left, top right;
+            background-color: red;
+
+            /* background: ; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box first-box"></div>
+    <div class="container">
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis non dolores ut similique quis voluptatibus veniam aperiam possimus, illum atque, dolorem rem dolor culpa natus facilis assumenda numquam hic nesciunt?
+        </p> -->
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
