@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .form-container {
+            width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .form-container fieldset {
+            padding: 20px;
+        }
+
+        .form-container label {
+            text-transform: uppercase;
+            /* lowercase | capitalize*/
+            font-size: 15px;
+            font-weight: 700;
+            /* 100 - 900*/
+        }
+
+        .form-group-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .form-group-container .form-group {
+            width: 47%;
+        }
+
+        .form-group input {
+            width: 100%;
+            margin-top: 6px;
+            border: 1px solid black;
+            border-bottom-width: 2px;
+            padding: 10px;
+            text-transform: uppercase;
+            border-radius: 6px;
+        }
+
+        .gender-container {
+            border: 1px solid black;
+            border-bottom-width: 2px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .gender-container label {
+            margin: 0 20px 0 5px;
+        }
+
+        .gender-container input{
+            width: auto;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="">
+            <fieldset>
+                <legend>Hello form</legend>
+                <!-- Name fields -->
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label for="">first name</label>
+                        <input type="text" placeholder="enter your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">last name</label>
+                        <input type="text" placeholder="enter your last name">
+                    </div>
+                </div>
+                
+                <!-- Contact fields -->
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label for="">first name</label>
+                        <input type="text" placeholder="enter your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">last name</label>
+                        <input type="text" placeholder="enter your last name">
+                    </div>
+                </div>
+                <!-- Details fields -->
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label for="">first name</label>
+                        <input type="text" placeholder="enter your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">last name</label>
+                        <input type="text" placeholder="enter your last name">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <div class="gender-container">
+                        <input name="gender" type="radio">
+                        <label for="">Male</label>
+                        <input name="gender" type="radio">
+                        <label for="">Female</label>
+                        <input name="gender" type="radio">
+                        <label for="">Other</label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
