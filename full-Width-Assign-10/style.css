@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.numbers-section{
+    background-image: url('https://wscubetech.co/Assignments/Assigment-10/images/spotlight-bg.webp');
+    padding: 80px 0;
+    background-size: cover;
+    background-position: 10% 10%;
+}
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+.numbers-section h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    background-image: url('https://wscubetech.co/Assignments/Assigment-10/images/spotlight-heading-bg.svg');
+    background-repeat: no-repeat;
+    background-position: 64% 100%;
+    background-size: 20%;
+}
+
+.numbers-section p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.count h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.count h2:hover{
+    color: yellow;
+}
+
+.count h6{
+    font-size: 18px;
+    color: rgb(156, 178, 197);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.count div{
+    width: 25%;
+    border-right: 1px solid rgb(156, 178, 197);
+    padding: 10px 0;
+}
+
+.count div:last-child{
+  border: none;
+}
+
+.interview-container{
+    display: flex;
+    padding: 120px 0;
+    align-items: center;
+}
+
+.interview-content{
+    width: 50%;
+}
+
+.interview-content > h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.interview-content > p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(67, 80, 91);
+    padding: 40px 0;
+}
+
+.qna-section > div{
+    border: 1px solid rgb(67, 80, 91);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.qna-section > div:hover{
+    border-color: rgb(38, 153, 251);
+}
+
+.qna-section h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: (10, 33, 52);
+}
+
+.qna-section p{
+    color: rgb(67, 80, 91);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.qna-section a{
+    color: rgb(38, 153, 251);
+}
+
+.interview-content button{
+    padding: 12px 20px;
+    background-color: rgb(38, 153, 251);
+    border-radius: 8px;
+    border: 1px solid rgb(38, 153, 251);
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.interview-content button:hover{
+    background-color: transparent;
+    color: rgb(38, 153, 251);
+}
+
+.interview-thumbnail{
+    padding: 50px 100px;
+    background-image: url('https://wscubetech.co/Assignments/Assigment-10/images/iq-circle.webp'), url('https://wscubetech.co/Assignments/Assigment-10/images/iq-dot-bg.webp');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 92% 100%, 9% 5%;
+}
+
+.thumbnail-container img{
+    width: 100%;
+}
